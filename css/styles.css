@@ -173,9 +173,13 @@ article{
 .art-top .slider{
 	width: 652px;
 	height: 231px;
-	background: url(../img/slider.jpg);
-	background-repeat: no-repeat;
+	/*background: url(../img/slider.jpg);
+	background-repeat: no-repeat;*/
 	margin-top: 8px;
+}
+.bxslider{
+	width: 652px;
+	height: 231px;
 }
 .sort-nav h3{
 	text-transform: uppercase;
@@ -467,4 +471,11 @@ footer a{
 	color: #366;
 	margin: 30px 0;
 	font-size: 14px;
+}
+
+#contact, #wishlist{
+	display: none;
+}
+#contact img{
+	float: right;
 }
